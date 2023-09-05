@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator</title>
+</head>
+<style>
+  /* Style for table headers */
+table.styled-table th {
+    background-color: #3498db; /* Header background color */
+    color: #fff; /* Header text color */
+    font-weight: bold;
+    padding: 10px;
+    text-align: center; /* Center text horizontally */
+    vertical-align: middle; /* Center text vertically */
+    border-bottom: 2px solid #ddd;
+}
+
+  /* Center the h1 title above the table */
+  .table-container {
+    text-align: center;
+  }
+
+  /* Style for the entire table */
+  table.styled-table {
+      width: 80%; /* Adjust the width as needed */
+      margin: 0 auto; /* Center the table horizontally */
+      border-collapse: collapse;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  
+
+  /* Style for table rows */
+  table.styled-table tr {
+      transition: background-color 0.3s ease;
+  }
+
+  /* Style for even rows */
+  table.styled-table tr:nth-child(even) {
+      background-color: #f2f2f2;
+  }
+
+  /* Style for table data cells */
+  table.styled-table td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+  }
+
+  /* Hover effect for rows */
+  table.styled-table tbody tr:hover {
+      background-color: #ddd;
+  }
+</style>
+<body>
+    <div class="table-container">
+        <h1>Cricket Data</h1>
+       <table class="styled-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Name</th>
+            <th>Venue</th>
+            <th>Results</th>
+          </tr>
+        </thead>
+        <tbody id="insert">
+         
+        </tbody>
+       </table>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "name": "My Second Google Chrome Extension",
+    "version": "0.0.1",
+    "description": "Current Mathces Details",
+    "manifest_version": 3,
+    "author": "Rao Bilal",
+    "action": {
+        "default_popup": "popup.html"
+      },
+    "permissions": ["activeTab"],
+    "icons": {
+        "48": "logo.png"  
+    }
+}
